@@ -1,32 +1,34 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-class Ticket extends JPanel
-{
-    Color col;
+class Ticket extends JPanel {
+    Color color;
     String material;
     int price;
     String country;
-    Ticket() {
+    int number;
+
+    Ticket(String spain) {
     }
 
     //Конструктори
-    Ticket(String a) {
-        material = a;
+    Ticket(String material, String country) {
+        this.material = material;
+        this.country = country;
     }
 
-    Ticket(String a, int b) {
-        material = a;
-        price = b;
+    Ticket(String material, int price) {
+        this.material = material;
+        this.price = price;
     }
     //Методи
     public void paint (Graphics g) {
-        g.setColor(col);
-        g.drawRect(10,15,price,50);
-        g.drawString(material, 50, 10);
+        g.setColor(color);
+        g.drawRect(10,15,  price,50);
+        g.drawString(""+number, 50, 10);
     }
 
 
+    public void DrawWindowTicket() {
+    }
 }

@@ -14,8 +14,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Panel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-498">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,24 +33,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Panel.java">
+        <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="55" column="51" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Over.java">
+        <entry file="file://$PROJECT_DIR$/src/Words.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,11 +57,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestGuessWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,10 +85,12 @@
         <option value="$PROJECT_DIR$/src/Scanner.java" />
         <option value="$PROJECT_DIR$/src/TextFieldTest.java" />
         <option value="$PROJECT_DIR$/src/String.java" />
-        <option value="$PROJECT_DIR$/src/GameWords.java" />
-        <option value="$PROJECT_DIR$/src/Panel.java" />
         <option value="$PROJECT_DIR$/src/Over.java" />
+        <option value="$PROJECT_DIR$/src/GameWords.java" />
         <option value="$PROJECT_DIR$/src/TestGuessWord.java" />
+        <option value="$PROJECT_DIR$/src/Panel.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
+        <option value="$PROJECT_DIR$/src/Words.java" />
       </list>
     </option>
   </component>
@@ -98,6 +106,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,18 +117,12 @@
             <path>
               <item name="lab4" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab4" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,8 +132,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572957803219" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab5" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574165737353" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -148,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGuessWord">
+  <component name="RunManager" selected="Application.GameWords.java">
     <configuration name="GameWords.java" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="GameWords" />
       <module name="lab4" />
@@ -183,17 +186,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestGuessWord.test_word" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGuessWord" />
+      <option name="METHOD_NAME" value="test_word" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestGuessWord.java" />
       <item itemvalue="Application.GameWords.java" />
       <item itemvalue="JUnit.TestGuessWord" />
       <item itemvalue="JUnit.TestGuessWord.actionPerformed" />
+      <item itemvalue="JUnit.TestGuessWord.test_word" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestGuessWord" />
-        <item itemvalue="JUnit.TestGuessWord.actionPerformed" />
         <item itemvalue="Application.GameWords.java" />
+        <item itemvalue="JUnit.TestGuessWord" />
+        <item itemvalue="JUnit.TestGuessWord.test_word" />
+        <item itemvalue="JUnit.TestGuessWord.actionPerformed" />
         <item itemvalue="Application.TestGuessWord.java" />
       </list>
     </recent_temporary>
@@ -218,6 +233,9 @@
       <workItem from="1572330732967" duration="1202000" />
       <workItem from="1572343431255" duration="4080000" />
       <workItem from="1572946255155" duration="4883000" />
+      <workItem from="1573553082666" duration="1551000" />
+      <workItem from="1574158875892" duration="4259000" />
+      <workItem from="1575367173920" duration="2149000" />
     </task>
     <servers />
   </component>
@@ -237,15 +255,28 @@
     <history-entry file="TestGuessWord - 2019.10.29 at 12h 35m 48s.xml">
       <configuration name="TestGuessWord" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestGuessWord - 2019.11.19 at 12h 39m 08s.xml">
+      <configuration name="TestGuessWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuessWord_test_word - 2019.11.19 at 12h 43m 33s.xml">
+      <configuration name="TestGuessWord.test_word" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuessWord_test_word - 2019.11.19 at 12h 45m 11s.xml">
+      <configuration name="TestGuessWord.test_word" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuessWord - 2019.11.19 at 12h 50m 56s.xml">
+      <configuration name="TestGuessWord" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27419000" />
+    <option name="totallyTimeSpent" value="35378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7016129" visible="true" weight="0.27956298" />
-      <window_info id="Structure" order="1" sideWeight="0.2983871" side_tool="true" visible="true" weight="0.27956298" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69758064" visible="true" weight="0.2911311" />
+      <window_info id="Structure" order="1" sideWeight="0.30241936" side_tool="true" visible="true" weight="0.2911311" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -285,41 +316,45 @@
     <entry file="file://$PROJECT_DIR$/src/TextFieldTest.java" />
     <entry file="file://$PROJECT_DIR$/src/GameWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="55" column="51" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="51" />
+        <state relative-caret-position="-498">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestGuessWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Over.java">
+    <entry file="file://$PROJECT_DIR$/src/Words.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -48,23 +48,23 @@ class Main {
                      airTicket = null;
                  }
 
-                 if ((String) constr.getSelectedItem() == "ticket(String a)") {
-                     ticket = new Ticket("Paper");
+                 if (((String) constr.getSelectedItem()).equals ("ticket(String a)")) {
+                     ticket = new Ticket("Spain");
                      window.getContentPane().repaint();
                      window.getContentPane().add(ticket);
                  }
-                 if ((String) constr.getSelectedItem() == "ticket(String a, int b)") {
-                     ticket = new Ticket("Plastic paper", 10);
+                 if (((String) constr.getSelectedItem()).equals("ticket(String a, int b)")) {
+                     ticket = new Ticket("Plastic paper", 150);
                      window.getContentPane().repaint();
                      window.getContentPane().add(ticket);
                  }
-                 if ((String) constr.getSelectedItem() == "AirTicket(int a, int b, int c)") {
-                     airTicket = new AirTicket(23, 12, 43);
+                 if (((String) constr.getSelectedItem()).equals("AirTicket(String a, Date c)")) {
+                     airTicket = new AirTicket();
                      window.getContentPane().repaint();
                      window.getContentPane().add(airTicket);
                  }
-                 if ((String) constr.getSelectedItem() == "AirTicket(int a, int b)") {
-                     airTicket = new AirTicket(12, 23);
+                 if (((String) constr.getSelectedItem()).equals("AirTicket(Date a, Date b)")) {
+                     airTicket = new AirTicket();
                      window.getContentPane().repaint();
                      window.getContentPane().add(airTicket);
                  }
@@ -89,16 +89,16 @@ class Main {
                   if (ticket != null) {
                       window.getContentPane().repaint();
                       window.getContentPane().add(ticket);
-                      result.setText("col:" + ticket.col + "\n"
+                      result.setText("color:" + ticket.color + "\n"
                               + "material:" + ticket.material + "\n"
                               + "price:" + ticket.price);
                   }
                   if (airTicket != null) {
                       window.getContentPane().repaint();
                       window.getContentPane().add(airTicket);
-                      result.setText("col:" + airTicket.price + "\n"
-                              + "material:" + airTicket.time + "\n"
-                              + "price:" + airTicket.length);
+                      result.setText("color:" + airTicket.price + "\n"
+                              + "material:" + airTicket.arrivalTime + "\n"
+                              + "price:" + airTicket.departureTime);
                   }
               }
         });
@@ -113,8 +113,8 @@ class Main {
 
 
         JButton changeCol = new JButton("");
-        changeCol.setBackground(ticket.col);
-        ticket.col = Color.white;
+        changeCol.setBackground(ticket.color);
+        ticket.color = Color.white;
 
         String[] listMaterials = {
                 "Paper",
@@ -141,21 +141,49 @@ class Main {
 
         changeCol.addActionListener(new ActionListener() {
                                         public void actionPerformed(ActionEvent e) {
-                                            ticket.col = JColorChooser.showDialog(null, "Choose a background",col);
-                                            changeCol.setBackground(ticket.col);
+                                            ticket.color = JColorChooser.showDialog(null, "Choose a background",col);
+                                            changeCol.setBackground(ticket.color);
                                         }
                                     }
         );
         apply.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                ticket.material = (String)mat.getSelectedItem();
+                ticket.material = (String) mat.getSelectedItem();
                 ticket.price = Integer.parseInt(prc.getText());
+                void DrawWindowAirTicket() {
+                    JFrame SetWin = new JFrame("Setting air_ticket");
+                    GridLayout gbl = new GridLayout(4, 1);
+                    SetWin.setLayout(gbl);
+                    SetWin.setLocation(0, 350);
+
+                    JTextField pric = new JTextField();
+                    JTextField leng = new JTextField();
+                    JTextField tim = new JTextField();
+                    JLabel lprice = new JLabel("Price:");
+                    JLabel lleng = new JLabel("Time:");
+                    JLabel ltim = new JLabel("Length:");
+                    JButton apply = new JButton("Apply");
+
+                    SetWin.getContentPane().add(lprice);
+                    SetWin.getContentPane().add(pric);
+                    SetWin.getContentPane().add(lleng);
+                    SetWin.getContentPane().add(leng);
+                    SetWin.getContentPane().add(ltim);
+                    SetWin.getContentPane().add(tim);
+                    SetWin.getContentPane().add(apply);
+                    SetWin.setVisible(true);
+                    SetWin.setSize(500, 300);
+
+                    apply.addActionListener(new ActionListener() {
+                        public void actionPerformed(ActionEvent e) {
+                            price = Integer.parseInt(pric.getText());
+                            length = Integer.parseInt(leng.getText());
+                            time = Integer.parseInt(tim.getText());
+                        }
+                    });
+                }
+
+
             }
         });
-    }
-}
-
-
-
-
-
+}}

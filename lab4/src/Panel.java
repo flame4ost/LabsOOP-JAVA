@@ -25,7 +25,8 @@ class Panel {
         this.btn = new JButton("Play");
         this.letter = new JTextField();
         this.position = new JTextField();
-        this.convert = new Game();
+        Words words = new Words();
+        this.convert = new Game(words.getWord(0));
         this.info = new JLabel();
         this.buildPanel();
     }
