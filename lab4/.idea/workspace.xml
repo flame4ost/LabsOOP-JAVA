@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d90db34-c108-4b86-a4cd-fe35bb0d0597" name="Default Changelist" comment="" />
+    <list default="true" id="2d90db34-c108-4b86-a4cd-fe35bb0d0597" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/META-INF/lab4.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab4/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/Words.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Over.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Over.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/src/AirTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/AirTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/src/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/Ticket.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -23,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-498">
+            <state relative-caret-position="476">
               <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,17 +44,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="204">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Over.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Words.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#257#258#0" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
@@ -75,6 +93,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -85,12 +106,12 @@
         <option value="$PROJECT_DIR$/src/Scanner.java" />
         <option value="$PROJECT_DIR$/src/TextFieldTest.java" />
         <option value="$PROJECT_DIR$/src/String.java" />
-        <option value="$PROJECT_DIR$/src/Over.java" />
         <option value="$PROJECT_DIR$/src/GameWords.java" />
         <option value="$PROJECT_DIR$/src/TestGuessWord.java" />
         <option value="$PROJECT_DIR$/src/Panel.java" />
-        <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/src/Words.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
+        <option value="$PROJECT_DIR$/src/Over.java" />
       </list>
     </option>
   </component>
@@ -100,13 +121,12 @@
     <option name="width" value="1242" />
     <option name="height" value="819" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,10 +139,18 @@
               <item name="lab4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Over.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,6 +264,8 @@
       <workItem from="1573553082666" duration="1551000" />
       <workItem from="1574158875892" duration="4259000" />
       <workItem from="1575367173920" duration="2149000" />
+      <workItem from="1576522142730" duration="131000" />
+      <workItem from="1576522346438" duration="184000" />
     </task>
     <servers />
   </component>
@@ -267,16 +297,19 @@
     <history-entry file="TestGuessWord - 2019.11.19 at 12h 50m 56s.xml">
       <configuration name="TestGuessWord" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestGuessWord - 2019.12.16 at 20h 55m 35s.xml">
+      <configuration name="TestGuessWord" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35378000" />
+    <option name="totallyTimeSpent" value="35693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69758064" visible="true" weight="0.2911311" />
-      <window_info id="Structure" order="1" sideWeight="0.30241936" side_tool="true" visible="true" weight="0.2911311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6935484" visible="true" weight="0.29884318" />
+      <window_info id="Structure" order="1" sideWeight="0.30645162" side_tool="true" visible="true" weight="0.29884318" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -314,27 +347,14 @@
     <entry file="file://D:/swing-jtext/swing-jtext/common/text/TextFieldTest.java" />
     <entry file="file://I:/ЧДТУ/ООП(JAVA)/A.java" />
     <entry file="file://$PROJECT_DIR$/src/TextFieldTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/GameWords.java">
+    <entry file="file://$PROJECT_DIR$/src/Words.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-498">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -348,14 +368,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Words.java">
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Over.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>

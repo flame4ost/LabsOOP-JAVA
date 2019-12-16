@@ -1,34 +1,38 @@
 import javax.swing.*;
 import java.awt.*;
 
-class Ticket extends JPanel {
-    Color color;
-    String material;
-    int price;
-    String country;
-    int number;
+public class Ticket extends JPanel {
 
-    Ticket(String spain) {
+    protected double price;
+    protected String id;
+
+    public Ticket(String id, double ticketPrice){
+        this.price = ticketPrice;
+        this.id = id;
+
     }
 
-    //Конструктори
-    Ticket(String material, String country) {
-        this.material = material;
-        this.country = country;
+    public double getPrice() {
+        return price;
     }
 
-    Ticket(String material, int price) {
-        this.material = material;
+    public String getId() {
+        return id;
+    }
+
+    public void setPrice(double price) {
         this.price = price;
     }
-    //Методи
-    public void paint (Graphics g) {
-        g.setColor(color);
-        g.drawRect(10,15,  price,50);
-        g.drawString(""+number, 50, 10);
+
+    public void setId(String id) {
+        this.id = id;
     }
 
 
-    public void DrawWindowTicket() {
+    public void paint (Graphics g){
+        g.drawRect(10,10,100,100);
+        g.drawString(id, 20, 50);
+        g.drawString(""+price+ " грн.", 20, 70);
     }
 }
+

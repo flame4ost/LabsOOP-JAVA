@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 
-class Game {
+class Games {
     private char[][] WORDS = { { 't', 'h', 'i', 's'}, { 'i', 's'}, {'a'}, {'j', 'a', 'v', 'a'},
             {'p', 'r', 'o', 'g','r', 'a', 'm','i', 'n', 'g'},{'l', 'a', 'n', 'g','u', 'a', 'e'}    };
     char[][] CODE = { { '*', '*', '*', '*'}, { '*', '*'}, {'*'}, {'*', '*', '*', '*'},

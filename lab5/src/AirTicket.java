@@ -1,38 +1,52 @@
+import javax.swing.*;
 import java.awt.*;
-import java.util.Date;
 
-class AirTicket extends Ticket {
-    Date arrivalTime;
-    Date departureTime;
-    String arrivalPlace;
-    String departurePlace;
+public class AirTicket extends Ticket {
 
+    protected String departurePlace;
+    protected String arrivalPlace;
+    protected String launchTime;
 
-    //Конструктори
-    AirTicket(Date arrivalTime, int price, Date departureTime, String arrivalPlace, String departurePlace) {
-        super("Spain");
-        this.price = price;
-        this.arrivalTime = arrivalTime;
-        this.departureTime = departureTime;
+    public AirTicket(String id, double ticketPrice, String departurePlace, String arrivalPlace, String launchTime) {
+        super(id, ticketPrice);
+        this.departurePlace = departurePlace;
         this.arrivalPlace = arrivalPlace;
+        this.launchTime = launchTime;
+    }
+
+    public String getDeparturePlace() {
+        return departurePlace;
+    }
+
+    public String getArrivalPlace() {
+        return arrivalPlace;
+    }
+
+    public String getLaunchTime() {
+        return launchTime;
+    }
+
+    public void setDeparturePlace(String departurePlace) {
         this.departurePlace = departurePlace;
     }
-    AirTicket(int price, Date arrival_time, String arrivalPlace)
-    {
-        super("Spain");
-        this.price = price;
-        this.arrivalTime = arrivalTime;
+
+    public void setArrivalPlace(String arrivalPlace) {
         this.arrivalPlace = arrivalPlace;
-
     }
 
-    @Override
-    public void paint (Graphics g)
-    {
-        g.drawOval(20, price, ""+ arrivalPlace, ""+ departurePlace,);
+    public void setLaunchTime(String launchTime) {
+        this.launchTime = launchTime;
     }
 
-    public void DrawWindowAirTicket() {
+    public void paint(Graphics g) {
+        g.drawRoundRect(10, 10, 100, 100, 30, 30);
+        g.drawString(id, 20, 35);
+        g.drawString(""+price+ " грн.", 20, 55);
+        g.drawString(departurePlace + " - " + arrivalPlace, 20, 75);
+        g.drawString(launchTime, 20, 95);
+    }
+
+    public String getFullInfo() {
+        return "TicketPrice: " + price + "\n" + "DeparturePlace: " + departurePlace + "\n" + "ArrivalPlace: " + "\n" + "LaunchTime: " + "\n";
     }
 }
-
