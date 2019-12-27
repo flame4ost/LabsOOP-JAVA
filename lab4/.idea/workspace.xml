@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d90db34-c108-4b86-a4cd-fe35bb0d0597" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab4/META-INF/lab4.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab4/Words.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab4/Words.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Over.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Over.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/src/AirTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/AirTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/src/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/Ticket.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -32,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            <state relative-caret-position="459">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="884">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -72,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestGuessWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -127,6 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,8 +144,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,7 +153,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574165737353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576586332128" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -179,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameWords.java">
+  <component name="RunManager" selected="JUnit.TestGuessWord">
     <configuration name="GameWords.java" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="GameWords" />
       <module name="lab4" />
@@ -233,8 +226,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameWords.java" />
         <item itemvalue="JUnit.TestGuessWord" />
+        <item itemvalue="Application.GameWords.java" />
         <item itemvalue="JUnit.TestGuessWord.test_word" />
         <item itemvalue="JUnit.TestGuessWord.actionPerformed" />
         <item itemvalue="Application.TestGuessWord.java" />
@@ -266,16 +259,12 @@
       <workItem from="1575367173920" duration="2149000" />
       <workItem from="1576522142730" duration="131000" />
       <workItem from="1576522346438" duration="184000" />
+      <workItem from="1576523082646" duration="589000" />
+      <workItem from="1576579057330" duration="2016000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGuessWord_actionPerformed - 2019.10.29 at 12h 31m 18s.xml">
-      <configuration name="TestGuessWord.actionPerformed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGuessWord_actionPerformed - 2019.10.29 at 12h 33m 53s.xml">
-      <configuration name="TestGuessWord.actionPerformed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestGuessWord - 2019.10.29 at 12h 34m 02s.xml">
       <configuration name="TestGuessWord" configurationId="JUnit" />
     </history-entry>
@@ -300,16 +289,22 @@
     <history-entry file="TestGuessWord - 2019.12.16 at 20h 55m 35s.xml">
       <configuration name="TestGuessWord" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestGuessWord - 2019.12.16 at 21h 05m 12s.xml">
+      <configuration name="TestGuessWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGuessWord - 2019.12.17 at 12h 51m 55s.xml">
+      <configuration name="TestGuessWord" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35693000" />
+    <option name="totallyTimeSpent" value="38298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6935484" visible="true" weight="0.29884318" />
-      <window_info id="Structure" order="1" sideWeight="0.30645162" side_tool="true" visible="true" weight="0.29884318" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6908602" visible="true" weight="0.23393317" />
+      <window_info id="Structure" order="1" sideWeight="0.3091398" side_tool="true" visible="true" weight="0.23393317" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -347,6 +342,37 @@
     <entry file="file://D:/swing-jtext/swing-jtext/common/text/TextFieldTest.java" />
     <entry file="file://I:/ЧДТУ/ООП(JAVA)/A.java" />
     <entry file="file://$PROJECT_DIR$/src/TextFieldTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Over.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Words.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -365,37 +391,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Over.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
