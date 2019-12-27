@@ -1,10 +1,15 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 public class Program {
 
     private static Ticket t;
+    static SimpleDateFormat df = new SimpleDateFormat("dd.MM.yy");
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Lab 5 OOP");
@@ -59,7 +64,7 @@ public class Program {
         JLabel l5 = new JLabel();
         frame.getContentPane().add(l5);
         l5.setBounds(10, 310, 210, 20);
-        l5.setText("Launch time");
+        l5.setText("Date and Time");
         JTextArea text5 = new JTextArea();
         frame.getContentPane().add(text5);
         text5.setBounds(10, 330, 210, 20);
@@ -82,8 +87,13 @@ public class Program {
                     }
                 }
                 if (comboBox.getSelectedItem() == "Air Ticket") {
-                    if (text1.getText().length() > 0 && text2.getText().length() > 0 && text3.getText().length() > 0 && text4.getText().length() > 0 && text5.getText().length() > 0)
-                        t = new AirTicket(text1.getText(), Double.parseDouble(text2.getText()), text3.getText(), text4.getText(), text5.getText());
+                    if (text1.getText().length() > 0 && text2.getText().length() > 0 && text3.getText().length() > 0 && text4.getText().length() > 0 && text5.getText().length() > 0) {
+                        try {
+                            t = new AirTicket(text1.getText(), Double.parseDouble(text2.getText()), text3.getText(), text4.getText(), df.parse(text5.getText()));
+                        } catch (ParseException e1) {
+                            e1.printStackTrace();
+                        }
+                    }
                     frame.getContentPane().add(t);
                     t.setBounds(0, 0, 150, 150);
                     frame.getContentPane().revalidate();
@@ -95,7 +105,7 @@ public class Program {
         JButton button2 = new JButton();
         frame.getContentPane().add(button2);
         button2.setBounds(10, 360, 105, 40);
-        button2.setText("Edit!");
+        button2.setText("Save!");
         button2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 if (comboBox.getSelectedItem() == "Ticket") {
@@ -113,7 +123,11 @@ public class Program {
                         b.setPrice(Double.parseDouble(text2.getText()));
                         b.setDeparturePlace(text3.getText());
                         b.setArrivalPlace(text4.getText());
-                        b.setLaunchTime(text5.getText());
+                        try {
+                            b.setLaunchTime(df.parse(text5.getText()));
+                        } catch (ParseException e1) {
+                            e1.printStackTrace();
+                        }
                         //t = b;
 
                         frame.getContentPane().revalidate();
@@ -134,7 +148,7 @@ public class Program {
                     text2.setText("" + t.getPrice());
                     text3.setText(((AirTicket) t).getDeparturePlace());
                     text4.setText(((AirTicket) t).getArrivalPlace());
-                    text5.setText(((AirTicket) t).getLaunchTime());
+                    text5.setText(df.format(((AirTicket)t).getLaunchTime()));
                 }
                 else{
                     text1.setText(t.getId());

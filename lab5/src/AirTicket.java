@@ -1,13 +1,15 @@
-import javax.swing.*;
 import java.awt.*;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 public class AirTicket extends Ticket {
-
     protected String departurePlace;
     protected String arrivalPlace;
-    protected String launchTime;
+    protected Date launchTime;
 
-    public AirTicket(String id, double ticketPrice, String departurePlace, String arrivalPlace, String launchTime) {
+
+    public AirTicket(String id, double ticketPrice, String departurePlace, String arrivalPlace, Date launchTime) {
         super(id, ticketPrice);
         this.departurePlace = departurePlace;
         this.arrivalPlace = arrivalPlace;
@@ -22,7 +24,7 @@ public class AirTicket extends Ticket {
         return arrivalPlace;
     }
 
-    public String getLaunchTime() {
+    public Date getLaunchTime() {
         return launchTime;
     }
 
@@ -34,7 +36,7 @@ public class AirTicket extends Ticket {
         this.arrivalPlace = arrivalPlace;
     }
 
-    public void setLaunchTime(String launchTime) {
+    public void setLaunchTime(Date launchTime) {
         this.launchTime = launchTime;
     }
 
@@ -43,10 +45,12 @@ public class AirTicket extends Ticket {
         g.drawString(id, 20, 35);
         g.drawString(""+price+ " грн.", 20, 55);
         g.drawString(departurePlace + " - " + arrivalPlace, 20, 75);
-        g.drawString(launchTime, 20, 95);
+        g.drawString((String.valueOf(launchTime)), 20, 95);
     }
 
     public String getFullInfo() {
         return "TicketPrice: " + price + "\n" + "DeparturePlace: " + departurePlace + "\n" + "ArrivalPlace: " + "\n" + "LaunchTime: " + "\n";
     }
+
+
 }
