@@ -173,35 +173,13 @@ class MainWindow2 {
 
     private void writeTicketInfo() {
         String transportInfo;
-        if (this.choose == 0) {
-            transportInfo = ticket.getTicketData();
-            this.frame.setSize(350, 450);
-            this.ticketDescription = new JLabel();
-            this.ticketDescription.setText(transportInfo);
-            this.mainPanel.add(ticketDescription);
-        }
-        if (this.choose == 1) {
-            transportInfo = ticket.getTicketData();
-            this.frame.setSize(350, 450);
-            this.ticketDescription = new JLabel();
-            this.ticketDescription.setText(transportInfo);
-            this.mainPanel.add(ticketDescription);
-        }
-        if (this.choose == 2) {
             transportInfo = airTicket.getTicketData();
             this.frame.setSize(350, 450);
             this.ticketDescription = new JLabel();
             this.ticketDescription.setText(transportInfo);
             this.mainPanel.add(ticketDescription);
         }
-        if (this.choose == 3) {
-            transportInfo = airTicket.getTicketData();
-            this.frame.setSize(350, 450);
-            this.ticketDescription = new JLabel();
-            this.ticketDescription.setText(transportInfo);
-            this.mainPanel.add(ticketDescription);
-        }
-    }
+
 
     private void getTicketInfo() {
         ArrayList param = new ArrayList();

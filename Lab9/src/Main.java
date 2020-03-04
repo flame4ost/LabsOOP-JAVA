@@ -7,7 +7,7 @@ public class Main {
         String user = "root";
         String password = "1111";
         String driverName = "com.mysql.jdbc.Driver";
-        JFrame window = new JFrame("Lab1");
+        JFrame window = new JFrame("Lab9");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JDBCAdapter jdbcAdapter = new JDBCAdapter(databaseURL,driverName,user,password);
         jdbcAdapter.executeQuery("SELECT * from products");
